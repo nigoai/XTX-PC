@@ -1,0 +1,308 @@
+/* 头部和底部的样式 */
+.xtx-shortcut {
+    height: 52px;
+    background-color: #333;
+}
+
+.xtx-shortcut li {
+    float: left;
+}
+
+.xtx-shortcut a {
+    font: 14px;
+    color: #dcdcdc;
+    line-height: 52px;
+}
+
+.xtx-shortcut li:nth-child(2n) {
+    width: 1px;
+    height: 14px;
+    background-color: #666;
+    margin: 19px 15px 0;
+}
+
+.xtx-phone::before {
+    display: inline-block;
+    content: '';
+    width: 11px;
+    height: 16px;
+    background: url(../images/sprites.png) -160px -70px;
+    vertical-align: middle;
+    margin-right: 8px;
+    margin-top: -3px;
+}
+
+.xtx-header {
+    height: 130px;
+    /* background-color: pink; */
+}
+
+.xtx-logo {
+    width: 207px;
+    height: 70px;
+    /* background-color: blue; */
+    margin: 30px 0 0 25px;
+}
+
+.xtx-logo a {
+    display: block;
+    width: 207px;
+    height: 70px;
+    background: url(../images/logo.png);
+    background-size: 100% 100%;
+    /* bgz 是设置图片大小的 */
+    /* 京东 */
+    font-size: 0;
+    /* 淘宝 text-indent:-9999px
+      overflow: hidden */
+}
+
+.xtx-nav {
+    margin-left: 15px;
+}
+
+.xtx-nav li {
+    float: left;
+    line-height: 130px;
+    margin: 0 24px;
+}
+
+.xtx-nav li a {
+    padding-bottom: 7px;
+}
+
+.xtx-nav li a:hover {
+    border-bottom: 1px solid #27ba9b;
+}
+
+.xtx-search {
+    width: 172px;
+    height: 30px;
+    border-bottom: 2px solid #e7e7e7;
+    margin-top: 54px;
+    margin-left: 55px;
+}
+
+.xtx-search button {
+    float: left;
+    width: 18px;
+    height: 18px;
+    background: url(../images/sprites.png) -80px -70px;
+    border: 0;
+    margin-top: 5px;
+}
+
+.xtx-search input {
+    float: left;
+    width: 154px;
+    height: 28px;
+    padding-left: 11px;
+}
+
+.xtx-cart {
+    margin-top: 58px;
+    margin-left: 15px;
+}
+
+.xtx-cart a {
+    position: relative;
+    display: block;
+    width: 23px;
+    height: 23px;
+    background: url(../images/sprites.png) -120px -70px;
+}
+
+.xtx-cart .count {
+    position: absolute;
+    top: -6px;
+    left: 9px;
+    height: 15px;
+    background-color: #e26237;
+    color: #fff;
+    font-size: 13px;
+    line-height: 15px;
+    padding: 0 6px;
+    border-radius: 8px;
+}
+
+.xtx-contact {
+    height: 302px;
+    /* background-color: pink; */
+    padding-top: 70px;
+}
+
+.xtx-service {
+    background-color: #333;
+}
+
+.xtx-service-in {
+    width: 1392px;
+    height: 174px;
+    margin: 0 auto;
+    border-bottom: 1px solid #434343;
+    padding-top: 60px;
+}
+
+.xtx-copyright {
+    height: 169px;
+    background-color: #333;
+}
+
+.xtx-contact dl {
+    float: left;
+    width: 302px;
+    height: 189px;
+    /* background-color: purple; */
+    text-align: center;
+}
+
+.xtx-contact dl dt {
+    color: #999;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+.xtx-contact dl dd {
+    display: inline-block;
+    width: 93px;
+    height: 93px;
+    border: 1px solid #eee;
+}
+
+.xtx-contact dl dd:first-of-type {
+    margin-right: 3px;
+}
+
+.xtx-contact dl i {
+    display: block;
+    width: 29px;
+    height: 28px;
+    background: url(../images/sprites.png);
+    margin: 20px auto 8px;
+}
+
+.xtx-contact .icon-service {
+    background-position: -250px -70px;
+}
+
+.xtx-contact .icon-feedback {
+    background-position: -350px -70px;
+}
+
+.xtx-contact dl a {
+    font-size: 14px;
+    color: #999;
+}
+
+.xtx-contact .icon-wechat {
+    width: 36px;
+    height: 29px;
+    background-position: -250px -15px;
+}
+
+.xtx-contact .icon-weibo {
+    width: 36px;
+    height: 29px;
+    background-position: -350px -15px;
+}
+
+.xtx-contact .download-ewm {
+    width: 116px;
+    height: 116px;
+    margin-top: -11px;
+    vertical-align: top;
+}
+
+.download-ewm img {
+    width: 105px;
+    height: 105px;
+    margin-top: 5px;
+}
+
+.xtx-contact .download-app {
+    width: 102px;
+    height: 116px;
+    border: 0;
+    font-size: 14px;
+}
+
+.download-app p {
+    line-height: 24px;
+    color: #999;
+    text-align: left;
+}
+
+.download-app a {
+    display: block;
+    width: 102px;
+    height: 32px;
+    background-color: #27ba9b;
+    color: #fff !important;
+    line-height: 32px;
+    margin-top: 13px;
+}
+
+.xtx-contact .hotline {
+    border: 0;
+    width: 160px;
+}
+
+.hotline .number {
+    font-size: 22px;
+    color: #666;
+    margin: 20px 0 10px 0;
+}
+
+.hotline .time {
+    font-size: 15px;
+    color: #999;
+}
+
+.xtx-service-in li {
+    float: left;
+    width: 464px;
+    height: 58px;
+    /* background-color: pink; */
+    text-align: center;
+    font-size: 28px;
+    color: #fff;
+}
+
+.xtx-service-in li i {
+    display: inline-block;
+    width: 58px;
+    height: 58px;
+    background: url(../images/sprites.png);
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.xtx-service-in .con-logistics {
+    background-position: -130px 0;
+}
+
+.xtx-service-in .con-fresh {
+    background-position: -6px 0;
+}
+
+.xtx-copyright {
+    height: 169px;
+    overflow: hidden;
+    background-color: #333;
+    text-align: center;
+}
+
+.xtx-copyright p {
+
+    margin: 40px 0 35px 0;
+    color: #999;
+
+}
+
+.xtx-copyright span {
+    margin: 0 10px
+}
+
+.xtx-copyright p a {
+    color: #999;
+}
